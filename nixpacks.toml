@@ -1,0 +1,25 @@
+[phases.setup]
+nixPkgs = [
+ "chromium",
+ "nss",
+ "freetype",
+ "harfbuzz",
+ "ca-certificates",
+ "ttf-dejavu",
+ "liberation_ttf",
+ "fontconfig",
+ "dbus",
+ "expat",
+ "glib",
+ "nspr",
+ "at-spi2-atk",
+ "cups",
+ "libdrm",
+ "mesa",
+ "libxkbcommon",
+ "alsa-lib",
+]
+
+[variables]
+PUPPETEER_SKIP_CHROMIUM_DOWNLOAD = "true"
+PUPPETEER_EXECUTABLE_PATH = "/run/current-system/sw/bin/chromium"
