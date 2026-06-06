@@ -1,0 +1,16 @@
+{
+  "aptPackages": [
+    "chromium",
+    "chromium-driver",
+    "fonts-liberation",
+    "libfontconfig1",
+    "libnss3",
+    "libatk1.0-0",
+    "libatk-bridge2.0-0",
+    "libcups2",
+    "libdrm2",
+    "libxkbcommon0",
+    "libgbm1",
+    "libasound2"
+  ]
+}
